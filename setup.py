@@ -6,14 +6,14 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name='pandavro',
-    version='1.8.0',
-    description='The interface between Avro and pandas DataFrame',
+    name='pandavro-aa',
+    version='1.9.0',
+    description='Fork of ynqa/pandavro to support newer numpy releases',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/ynqa/pandavro',
-    author='Makoto Ito',
-    author_email='un.pensiero.vano@gmail.com',
+    url='https://github.com/fredcohen-aa/pandavro',
+    author='Fred Cohen',
+    author_email='fred.cohen@aa.com',
     license='MIT',
     packages=find_packages(exclude=['example']),
     install_requires=[
