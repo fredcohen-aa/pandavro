@@ -15,7 +15,7 @@ except ImportError:
     # previous version of pandas
     from pandas.util.testing import assert_frame_equal
 
-import pandavro-aa as pdx
+import pandavro_aa as pdx
 
 
 @pytest.fixture
