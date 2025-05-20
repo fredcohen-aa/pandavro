@@ -6,7 +6,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name='pandavro_aa',
+    name='pandavro-aa',
     version='1.9.0',
     description='Fork of ynqa/pandavro to support newer numpy releases',
     long_description=long_description,
